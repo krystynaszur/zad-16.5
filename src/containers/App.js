@@ -25,7 +25,7 @@ class App extends React.Component {
     render() {
         return (
             <div className={style.TodoApp}>
-                Oto komponenty aplikacji.
+                App components
                 <Title title="My awesome list of things to do" taskNumber={this.state.data.length} />
             </div>
         );
